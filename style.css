@@ -1,0 +1,1152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightgray;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.container ul li{
+    display: inline;
+    
+}
+.container ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #1E1B18;
+}
+.road-assistance .icon{
+    margin-right: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+#hero-section .image-section{
+    background: url('Header\ Image.png') no-repeat;
+    margin-top: 30px;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero-section .text-section, #hero-section .image-section{
+width: 50%;
+height: 550px;
+}
+
+.text-section{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.text-section h1{
+    font-size: 70px;
+
+}
+.orange-button{
+    background-color: orange;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    color: black;
+    margin-top: 20px;
+}
+.time-section{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.time-section img{
+    width: 100%;
+}
+.time-section .image-box{
+width: 5%;
+margin-right: 10px;
+}
+.text-section .time-text{
+    width: 100px;
+}
+.icon{
+    margin-left: 10px;
+}
+.line{
+    border: 1px solid lightgrey;
+    margin-right: 30px;
+}
+.road-assistance{
+    display: flex;
+    
+}
+.quote-section{
+    background-color: lightgrey;
+}
+.quote-section .left-section .right-section{
+    width: 45%;
+}
+.flex2{
+    display: flex;
+}
+.left-section ul{
+    list-style: none;
+}
+.left-section ul li .text-box{
+    margin-bottom: 20px;
+}
+.form-section .orange-button{
+    margin-bottom: 20px;
+    border: 1px solid orange;
+}
+.quote-section .left-section h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.quote-section .left-section, #image-box{
+    width: 5%;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+.quote-section .left-section, #image-box img{
+    width: 100%;
+}
+.quote-section .left-section .text-box{
+    width: 50%;
+}
+.quote-section .left-section .text-box h5{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.right-section h3{
+    font-size: 18px;
+}
+.quote-section .right-section  .form-section{
+    width: 100%;
+}
+
+input[type=text]{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+.process-section{
+padding: 30px;
+}
+#flex2{
+    display: flex;
+}
+
+.process-section .left-process-section{
+    width: 55%;
+    margin-top: 100px;
+}
+
+.process-section .left-process-section h2{
+Font-family: Manrope;
+Font-style: ExtraBold;
+Font-size: 48px;
+Line-height: 76px;
+Line-height: 96%;
+Vertical-align: Top;
+Letter-spacing: -3%;
+    
+}
+
+.process-section .left-process-section p{
+font-size: 18px;
+line-height: 128%;
+letter-spacing: 0em;
+text-align: left;
+opacity: 0.6;
+margin-top: 20px;
+
+}
+.process-section .left-process-section .orange-button{
+    margin-top: 50px;
+    
+    }
+.process-section .right-process-section{
+    width: 45%;
+    margin-top: 60px;
+}
+
+
+.process-section .right-process-section .ball-img{
+    width: 36px;
+    text-align: center;
+    margin-right: 10px;
+    height: 36px;
+    
+}
+.process-section .right-process-section .text-1{
+width: 70%;
+}
+.process-section .right-process-section .ball-img img{
+    width: 100%;
+}
+.process-section .right-process-section .ball-img .line-img img{
+    width: 2px;
+    margin-top: 5px;
+
+}
+.process-section .right-process-section .text-1 h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 60px;
+
+}
+.process-section .right-process-section .text-1 p{
+    font-size: 16px;
+    color: #1E1B18;
+    opacity: 0.6;
+    width:80%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.process-section .right-process-section ul li{
+    margin-bottom: 10px;
+}
+/*.process-section .left-section .text-section h2{
+    font-weight: 800;
+    font-size: 58px;
+    margin-top: 40px;
+}*/
+#offers-section{
+    background: lightgray;
+    padding: 80px 0;
+    min-height: 100vh;
+}
+#offers-section h5{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#offers-section, h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#offers-section .offers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 180px;
+}
+
+#offers-section .offers .offer-box{
+    background: #fff;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+}
+
+#offers-section .offers .offer-box img{
+    margin-top: 80px;
+}
+
+
+#offers-section .offers .offer-box p{
+    margin-top: 20px;
+    
+}
+
+#offers-section .offers .offer-box:hover{
+     background: orangered;
+     color: #fff;
+}
+.learn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 340px;
+}
+.learn .a {
+    text-decoration: none;
+    color: #1E1B18;
+    display: flex;
+}
+.learn .a p{
+    margin-right: 10px;
+}
+.image-1{
+    background: url('car.png') no-repeat;
+    height: 500px;
+    width: 50%;
+}
+#orange-box{
+    background: #FF6433;
+    height: 40%;
+    height: 500px;
+}
+.txt-sec{
+    
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.black-button{
+    background-color: black;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    margin-top: 30px;
+}
+#black-button{
+float: left;
+margin-left: 40px;
+}
+
+.image-2{
+    background: url('auto.png') no-repeat;
+    height: 500px;
+    width: 50%;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+
+.numb{
+    height: 172px;
+    width: 200px;
+    margin-right: 40px;
+    margin-top: 20px;
+    
+}
+.brands .brand-section .img1 img, .brands .brand-section .img2 img{
+  margin-bottom: 30px;
+  margin-left: 40px;  
+    
+}
+.brand-section{
+    background: white;
+    min-height: 70vh;
+    justify-content: center;
+}
+.brand-section h3{
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-top: 30px;
+}
+.testimonial-section .txt h3{
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    
+  } 
+  .container4{
+      min-height: 70vh;
+      margin-top: 40px;
+  }
+  .container4 .testimonial-section .testimony{
+      display: flex;
+      justify-content: center;
+  }
+
+  .container4 .testimonial-section .testimonial-left-section{
+      display: flex;
+  }
+
+  .testimonial-section .testimonial-left-section .testimonial-1 img{
+    height: 64px;
+    width: 64px;
+    border-radius: 151px;
+    padding: 10px;
+    margin-left: 20px;
+    
+    
+    
+  }
+
+  .name-1 h4{
+      margin-top: 20px;
+  }
+  #testimonial-1{
+      margin-right: 20px;
+      border: 1px solid white;
+      height: 236px;
+      width: 445px;
+      border-radius: 6px;
+      justify-content: center;
+      opacity: 0.8;
+      background-color: #fff;
+      margin-bottom: 20px;
+      
+
+  }
+
+  #testimonial-1 p{
+font-family: Manrope;
+font-size: 18pxpx;
+font-weight: 600;
+line-height: 36px;
+margin-left: 40px;
+
+
+  }
+
+ #testimonial .testimonial-left-section .name-1 h4{
+    text-align: left;
+  }
+  
+  #lines{
+      display: flex;
+      justify-content: center;
+  }
+#lines .grey-line{
+    margin-right: 10px;
+    
+    
+}
+.container-1{
+}
+.quiz-area{
+    background: #fff;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.minus img{
+    height: 10%;
+    margin-left: 30px;
+}
+
+.quiz-container .heading h3{
+    padding: 20px;
+    text-align: center;
+}
+.quiz-area h6{
+    height: 36px;
+
+font-size: 18px;
+
+}
+
+
+
+.quiz-area .container-1 .minus img{
+    margin-left: 320px;
+}
+
+.quiz-container .quiz-area{
+margin-left: 400px;
+}
+
+.question-section{
+    margin-bottom: 80px;
+}
+
+.footer-section{
+    background: #1E1B18;
+    min-height: 70vh;
+    width: 100%;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section .footer-top{
+    min-height: 50vh;
+}
+
+.footer-section .footer-top .footer-left{
+      width: 45%;
+      margin-left: 80px;
+      height: 200px;
+}
+.footer-section .footer-top .footer-left .textt{
+    margin-top: 20px;
+    height: 50px;
+width: 463px;
+left: 320px;
+top: 7188px;
+border-radius: nullpx;
+color: white;
+
+}
+.social-media-icons{
+    display: flex;
+    
+}
+
+.social-media-icons img{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.footer-section .footer-top .footer-right{
+    width: 55%;
+    color: #fff;
+    margin-top: 60px;
+
+}
+.footer-section .footer-top .footer-right h5{
+  margin-bottom: 20px;
+
+}
+
+.footer-bottom{
+    color: white;
+}
+.footer-bottom .flex2 .logo{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.footer-bottom .flex2 ul{
+    list-style: none;
+}
+.footer-bottom .flex2 ul li {
+    display: inline-block;
+}
+
+.footer-bottom .flex2 ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.foooter-bottom .flex2 .h6{
+    color: white;
+}
+
+
+.service-container{
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Manrope", sans-serif;
+}
+.section-one{
+    display: flex;
+    margin-top: 30px;
+}
+
+.service-container .section-one .section-one-left{
+    width: 50%;
+}
+
+
+.service-container .section-one .section-one-left img{
+    width: 100%;
+    height: 500px;
+}
+
+
+.service-container .section-one .section-one-right{
+    width: 50%;
+    background-color: #1E1B18;
+    height: 500px;
+}
+.section-one-right .our-service{
+    color: #fff;
+}
+
+.section-one-right .our-service h2{
+    margin-top: 30px;
+    font-size: 48px;
+}
+
+.section-one-right .our-service p{
+    padding: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.section-one-right .orange-button {
+    margin-left: 40px;
+}
+
+.section-one-right .orange-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-two{
+    background-color: lightgray;
+    margin-top: 50px;
+}
+.service-left-right{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-left{
+    background-color: #fff;
+    width: 45%;
+}
+.service-image{
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px;
+
+}
+.service-image img{
+    width: 60%;
+
+}
+
+.service-left-text{
+    padding: 20px;
+}
+/*.service-left-text .heading h3{
+ font-size: 32px;
+    margin-bottom: 200px;
+    
+
+}
+.service-left-text .service-left-text-p p{
+margin-bottom: 200px;
+    
+
+}*/
+
+.details{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.details .details-txt a{
+    color: #1E1B18;
+    text-decoration: none;
+}
+
+.details .details-arrow{
+    margin-left: 10px;
+}
+.service-right .offer-sec{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+.service-right .offer-sec .offer-box{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.service-right .offer-sec .offer-box:hover{
+   background-color: orangered;
+   color: #fff;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.service-right .offer-sec .offer-box img{
+   padding: 30px;
+   
+}
+.service-right .offer-sec .offer-box p{
+    
+    text-align: center;
+ }
+.how-1-sec{
+    display: flex;
+    margin-top: 80px;
+}
+
+.how-left .how-head h3{
+font-family: Manrope;
+font-size: 48px;
+
+
+}
+.how-left{
+    height: 477px;
+width: 45%;
+border-radius: 0px;
+margin-top: 40px;
+
+}
+.how1{
+    height: 77px;
+width: 515px;
+left: 320px;
+top: 2174px;
+border-radius: 0px;
+display: flex;
+
+}
+.how1 .tick{
+    background: #00D289;
+    height: 48px;
+width: 48px;
+left: 320px;
+top: 2174px;
+border-radius: 0px;
+border-radius: 50%;
+
+
+}
+
+.how-left .how1 .tick img{
+    padding: 10px;
+}
+
+.how-left .how1 .how-paragraph{
+    padding: 10px;
+}
+
+.how-right{
+    width: 55%;
+    height: 477px;
+}
+
+.how-right .hows-image{
+    display: flex;
+}
+.how-right .hows-image .how-image1, .how-right .hows-image .how-image2{
+    width: 50%;
+    margin-left: 10px;
+    
+}
+.how-right .hows-image .how-image1 img, .how-right .hows-image .how-image2 img{
+    width: 100%;
+    height: 380px;
+}
+.diagnose-section{
+    display: flex;
+}
+.left-diagnose{
+    width: 50%;
+}
+
+.diagnose-section .left-diagnose .diagnose-images{
+    width: 100%;
+    display: flex;
+}
+
+.diagnose-section .left-diagnose .diagnose-images .img1-diagnose img, 
+.diagnose-section .left-diagnose .diagnose-images .img2-diagnose img{
+    width: 100%;
+    height: 380px;
+    margin-right: 15px;
+} 
+
+.right-diagnose{
+    width: 50%;
+
+}
+
+.right-diagnose .diagnose-text{
+    width: 100%;
+    margin-left: 80px;
+   
+    
+}
+.right-diagnose .diagnose-text  .d-text h3{
+     line-height: 40px;
+    font-size: 24px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+}
+.right-diagnose .diagnose-text  .d-p p{
+    
+    font-size: 14px; 
+    
+}
+.margin{
+    margin-top: 40px;
+}
+
+/*my mobile view*/
+@media (max-width: 428px) {
+    header .container{
+        flex-direction: column;
+    }
+   .logo img{
+       padding-left: 20PX;
+    }
+    
+    .container ul{
+        padding: 15px;
+    }
+    
+    .container ul li{
+        display: block;
+        padding: 15px;
+
+    }
+    header .line{
+        display: none;
+    }
+    
+    .flex{
+        flex-direction: column;
+    }
+    #hero-section .text-section, #hero-section .image-section{
+        width: 100%;
+    }
+    #hero-section .text-section {
+        order: 2;
+        margin-bottom: 20px;
+    }
+    .text-section h1{
+        font-size: 45px;
+        margin-bottom: 40PX;
+    }
+    #hero-section .image-section {
+        order: 1;
+        min-height: 80vh;
+    }
+    .quote-section .left-section h2{
+        margin: 0;
+        font-size: 40px;
+        margin-right: 80px;
+    }
+    .quote-section .left-section, #image-box{
+        margin-right: 15px;
+    }
+    .quote-section .left-section, #image-box img{
+        width: 120%;
+    }
+    .quote-section .left-section .text-box h5{
+        margin: 0;
+    }
+    .left-section ul li{
+        margin-left: 30px;
+    }
+    .right-section h3{
+        font-size: 24px;
+        margin: 0;
+    }
+    .quote-section .right-section .form-section{
+        width: 70%;
+        padding-left: 80px;
+    }
+    .sm-screen{
+        flex-direction: column;
+    }
+    .process-section{
+        min-height: 80vh;
+        height: 1000px;
+        width: o;
+        left: 0;
+        right: 0;
+    }
+    .process-section .left-process-section{
+        width: 100%;
+        margin: 0;
+    }
+    .process-section .left-process-section h2{
+        margin: 0;
+        font-size: 38px;
+        padding:0;
+    }
+    .process-section .right-process-section .text-1 h2{
+        padding: 0;
+    }
+    .process-section .right-process-section .text-1{
+        width: 100%;
+    }
+    .btn{
+        margin-left: 30px;
+    }
+    .process-section .left-process-section p{
+        padding-left:30px ;
+    }
+    .process-section .right-process-section{
+        width: 100%;
+        margin: 0;
+        max-height: 50vh;
+        
+    }
+   .justify-content{
+    flex-direction: column;
+   }
+   #offers-section .offers{
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+   }
+   
+   #offers-section .offers .offer-box{
+       height: 166px;
+       width: 50%;
+   }
+
+   .brand-section{
+       min-height: 60vh;
+       background: #fff;
+       margin-bottom: 40px;
+   }
+  .brand-section img{
+      height: 80px;
+      width: 100%;
+  } 
+  .brands .brand-section .img1 img, .brands .brand-section .img2 img{
+    margin-left: 5px;  
+      
+  } 
+
+  .image-1, .image-2{
+     width: 380px;
+     height: 400px;
+     margin-bottom: 30px;
+     margin-left: 40px;
+     
+     
+  }
+  #orange-box{
+    width: 380px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+  }
+
+.image-2{
+    margin-top: 30px;
+ }
+ #orange-box .txt-sec h3{
+     font-size: 24px;
+ }
+ 
+ 
+  #lines{
+      display: none;
+  } 
+  .testimonial-section .txt h3{
+      font-size: 24px;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .container4 .testimonial-section .testimony{
+      flex-direction: column;
+  }
+  #testimonial-1{
+      width: 380px;
+      margin-left: 20px;
+  }
+
+  .quiz-container .quiz-area{
+      margin-left: 0;
+  }
+
+  .quiz-area{
+    width:100%;
+
+    
+}
+
+.quiz-area .container-1 .minus img{
+    margin: 0;
+}
+.quiz-area h6{
+
+}
+ 
+
+.footer-top{
+    flex-direction: column;
+}
+.footer-section .footer-top .footer-left{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+/*.brand-section, h3{
+    letter-spacing: 0;
+    font-size: 20px;
+}*/
+
+.section-one{
+    flex-direction: column;
+}
+.service-container .section-one .section-one-left, .service-container .section-one .section-one-right{
+    width: 100%;
+}
+
+.section-one-right .our-service h2{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.section-one-right .our-service p{
+    font-size: 10px;
+    padding: 0;
+    width: 50%;
+}
+
+.section-one-right .orange-button{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.service-left{
+    width: 100%;
+}
+.service-right .offer-sec{
+   min-height: 70vh;
+}
+
+.how-1-sec{
+    flex-direction: column;
+}
+.service-right .offer-sec{
+    flex-direction: column;
+    margin-left: 0;
+}
+
+
+.how-left{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.how-left .how1 .how-paragraph{
+    width: 50%;
+}
+.how-right{
+    width: 100%;
+    margin-bottom: 220px;
+}
+
+.how-right .hows-image{
+    flex-direction: column;
+}
+.diagnose-section .left-diagnose .diagnose-images{
+    flex-direction: column;
+}
+.diagnose-section .left-diagnose .diagnose-images .img2-diagnose img{
+    margin-top: 20px;
+}
+.diagnose-section .left-diagnose .diagnose-images .img1-diagnose img,.diagnose-section .left-diagnose .diagnose-images .img2-diagnose img{
+    width: 100%;
+}
+.right-diagnose{
+    width: 100%;
+}
+.right-diagnose .diagnose-text{
+    margin-left: 0px;
+}
+.right-diagnose .diagnose-text .d-text h3{
+    font-size: 20px;
+}
+    
+
+.how-right .hows-image .how-image1, .how-right .hows-image .how-image2{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.diagnose-section{
+    flex-direction: column;
+    margin-top: 140px;
+}
+.left-diagnose{
+    width: 100%;
+}
+.footer-section .footer-top .footer-right{
+    margin-left: 20px;
+}
+.links ul li a{
+    pad: 15px;
+}
+
+.footer-section .footer-top .footer-left .textt{
+    width: 100%;
+}
+
+.social-media-icons{
+    margin-left: 30px;
+}
+.footer-section .footer-top .footer-right{
+    margin-left: 40px;
+    
+}
+
+.footer-bottom .flex2 .logo{
+    padding: 20px;
+}
+
+.foooter-bottom .flex2 .links{
+    padding: 20px;
+}
+
+}
+@media (max-width:768px){
+    .quote-section .right-section .form-section{
+        width: 70%;
+    }
+    .form-section .orange-button{
+        padding: 12px;
+        font-size: 14px;
+    }
+
+
+    .quiz-container .quiz-area{
+        margin-left: 100px;
+    }
+    .numbers{
+        flex-direction: column;
+    }
+    .numb{
+        margin-left: 140px;
+    }
+    #offers-section .offers .offer-box{
+        height: 150px;
+        width: 150px;
+        
+    }
+    #offers-section .offers .offer-box img{
+        margin-top: 40px;
+    }
+    #orange-box{
+        width: 25%;
+    }
+    .txt-sec{
+        font-size: 18px;
+        line-height: 30px;
+
+    }
+
+    .black-button{
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+}
